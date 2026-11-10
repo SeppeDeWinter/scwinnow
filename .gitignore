@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Tooling caches
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# JS
+js/node_modules/
+
+# Data (downloaded / generated)
+data/
+
+# Agent notes (kept local)
+CLAUDE.md
+
+# OS
+.DS_Store
+._*

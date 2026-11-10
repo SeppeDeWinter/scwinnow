@@ -1,0 +1,12 @@
+{
+  "name": "scwinnow-ui",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild src/main.js --bundle --format=esm --target=es2022 --outfile=../src/scwinnow/static/app.js && esbuild src/widget.js --bundle --format=esm --target=es2022 --outfile=../src/scwinnow/static/widget.js",
+    "test": "node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
